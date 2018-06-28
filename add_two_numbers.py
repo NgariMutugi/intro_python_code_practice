@@ -1,10 +1,11 @@
-#! This program adds two numbers
+# this program adds two numbers
 
-NUM1 = 1.5
-NUM2 = 6.3
+num_1 = 12
+num_2 = 23
 
-# Add two numbers
-add = float(NUM1) + float(NUM2)
+# adding the two numbers
+ 
+sumx = float(num_1)+float(num_2)
 
-# Display the sum
-print('The sum of {0} and {1} is {2}'.format(NUM1, NUM2, add))
+# use of string formating in print()
+print(f'the sum of {num_1} and {num_2} is {sumx}')
