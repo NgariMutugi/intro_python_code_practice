@@ -1,10 +1,10 @@
 # This program adds two numbers
 
-num1 = 1.5
-num2 = 6.3
+num_1 = 1.5
+num_2 = 6.3
 
 # Add two numbers
-sum2 = float(num1) + float(num2)
+add = float(num_1) + float(num_2)
 
 # Display the sum
-print('The sum of {0} and {1} is {2}'.format(num1, num2, sum2))
+print('The sum of {0} and {1} is {2}'.format(num_1, num_2, add))
